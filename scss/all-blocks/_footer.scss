@@ -1,0 +1,41 @@
+.footer {
+    margin-top: 51px;
+    background-color: #0082F4;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        
+    }
+
+    &__text {
+        color: #fff;
+    }
+
+    &__button {
+        
+        max-width: 131px;
+        width: 100%;
+        padding: 12px 20px;
+        border-radius: 10px;
+        background: #FFF;
+        border: 2px solid #0082F4;
+        color: #0082F4;
+    }
+
+   
+
+
+}
+.footer__button:hover {
+    opacity: 0.4;
+    color: black;
+}
+@media only screen and (max-width: 940px) {
+    .footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
